@@ -1,6 +1,7 @@
 ---
 title: Arenas
-parent: Generation 3
+parent: Hardware
+grand_parent: Generation 3
 nav_order: 3
 ---
 

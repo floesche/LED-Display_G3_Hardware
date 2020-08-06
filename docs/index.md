@@ -1,6 +1,7 @@
 ---
-title: G3 Home
+title: Hardware
 parent: Generation 3
+has_children: true
 nav_order: 1
 ---
 
