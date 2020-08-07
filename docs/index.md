@@ -7,7 +7,7 @@ nav_order: 1
 
 # Home
 
-These pages document the hardware details of the controller project (PDC 3.0, released April 2011). The documentation for the version 2 of the project is archived [here](https://github.com/reiserlab/Panel-G3-Software/wiki/Old-Panels-Info).
+These pages document the hardware details of the controller project (PDC 3.0, released April 2011). The documentation for the version 2 of the project is archived [here](/Generation%203/Software/docs/g2-panels.html).
 
 What is new in PDC 3.0?
 
@@ -24,7 +24,6 @@ What is new in PDC 3.0?
 1. The PC is used to display patterns on the flight arena and record data through the nidaq. The PC must be capable of running Matlab as well as a data acquisition program such as AxoScope or Spikehound. It must have at least one USB and one serial port.
 1. An oscilloscope with three input channels and an external trigger will suffice. 
 
-
 # Required parts
 
 The following is a brief list of the parts needed for a functional setup.
@@ -38,11 +37,11 @@ The following is a brief list of the parts needed for a functional setup.
 1. PC - Any PC capable of running matlab, a data aquisition program, and handling the card drivers for the NIDAQ. - Our setup uses Dell Precision T5500
 1. Cables - BNC, BNC-Bannana adaptors, BNC T splitters, Firewire, USB A-B
 
-## Flight Arena & Peripherals    
+## Flight Arena & Peripherals
 
-(See [Arenas Page](Arenas) for assembly information)
+(See [Arenas Page](/Generation%203/Hardware/docs/arenas.html) for assembly information)
 
-1. [LED Display Panels](https://github.com/reiserlab/Panel-G3-Software/blob/master/resources/Green%20Panels%20BM-10288MD.pdf)
+1. [LED Display Panels](../../Software/assets/Green%20Panels%20BM-10288MD.pdf)
 1. Arena Boards  -  (needed)
 1. IR Sensor/Cover  - (needed)
 1. IR Diode - (needed)
