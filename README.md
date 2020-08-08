@@ -1,8 +1,3 @@
----
-title: G3 Hardware
-parent: Generation 3
-nav_exclude: true
----
 # Modular display system, Generation 3 Hardware
 
 This repository contains information related to the 3rd generation of modular
