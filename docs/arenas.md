@@ -28,8 +28,8 @@ The PCB boards for each arena require some soldering. Remember both boards must 
 1. Check that the panels turn on and are in the correct place by plugging in the 5V power supply and turning on the arena with the power switch.
 1. Check for gaps between LED panels which can compromise the long term stability of the arena.
 
-![An assembled arena - top view](../resources/arena_top1.jpg){: width="49%" .float-left}
-![An assembled arena - side view](../resources/arena_side1.jpg){: width="49%"}
+![An assembled arena - top view](../assets/arena_top1.jpg){: width="49%" .float-left}
+![An assembled arena - side view](../assets/arena_side1.jpg){: width="49%"}
 
 ---
 {:.clear}
