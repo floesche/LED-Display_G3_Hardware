@@ -7,7 +7,7 @@ nav_order: 1
 
 # Home
 
-These pages document the hardware details of the controller project (PDC 3.0, released April 2011). The documentation for the version 2 of the project is archived [here](/Generation%203/Software/docs/g2-panels.html).
+These pages document the hardware details of the controller project (PDC 3.0, released April 2011). The documentation for the version 2 of the project is archived [here](../../Software/docs/g2-panels.md).
 
 What is new in PDC 3.0?
 
@@ -31,15 +31,15 @@ The following is a brief list of the parts needed for a functional setup.
 ## Data Processing & Acquisition
 
 1. Arena Controller -  (URL/controller details neeeded)
-1. Wingbeat Analyzer (WBA) - [JFI Electronics Laboratory](http://jfi.uchicago.edu/index.shtml), University of Chicago - 
+1. Wingbeat Analyzer (WBA) - [JFI Electronics Laboratory](https://jfi.uchicago.edu/), University of Chicago.
 1. Data Acquisition Module -  [National Instruments Data Acquisition PCI-6221 Board (NIDAQ)](http://sine.ni.com/nips/cds/view/p/lang/en/nid/14132)
-1. Oscilloscope - [Tektronix TDS 2024B](www.tek.com/products/oscilloscopes/tds2000/)
+1. Oscilloscope - [Tektronix TDS 2024B](https://www.tek.com/products/oscilloscopes/tds2000/)
 1. PC - Any PC capable of running matlab, a data aquisition program, and handling the card drivers for the NIDAQ. - Our setup uses Dell Precision T5500
 1. Cables - BNC, BNC-Bannana adaptors, BNC T splitters, Firewire, USB A-B
 
 ## Flight Arena & Peripherals
 
-(See [Arenas Page](/Generation%203/Hardware/docs/arenas.html) for assembly information)
+(See [Arenas Page](arenas.md) for assembly information)
 
 1. [LED Display Panels](../../Software/assets/Green%20Panels%20BM-10288MD.pdf)
 1. Arena Boards  -  (needed)

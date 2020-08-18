@@ -9,10 +9,10 @@ nav_order: 3
 
 ## Assembling the LED matrix.
 
-The standard arena consists of a circular array of 8x8 dot matrix displays of LEDs connected to microcontrollers in a 1:1 manner. The typical 12 panel ring arena is built from two PCB boards, and is typically 4 panels high (48 panels total). In order to later control the displays, unique addresses must be assigned to each one. These microcontrollers may need to be flashed with the latest files according to the [quick start guide](/Generation%203/Software/docs/quick-start.html) before assigning addresses The following outlines the steps needed for creating a standard arena with a 4x11 array of LED displays.
+The standard arena consists of a circular array of 8x8 dot matrix displays of LEDs connected to microcontrollers in a 1:1 manner. The typical 12 panel ring arena is built from two PCB boards, and is typically 4 panels high (48 panels total). In order to later control the displays, unique addresses must be assigned to each one. These microcontrollers may need to be flashed with the latest files according to the [quick start guide](../../Software/docs/quick-start.md) before assigning addresses The following outlines the steps needed for creating a standard arena with a 4x11 array of LED displays.
 
 1. Press each LED display into the microcontroller using the correct orientation. With the male side of the controller pointing down, the ink stamp of the LED should be on the right hand side before inserting pins.
-1. Once 44 microcontroller/LED units have been assembled (or more, if some microcontrollers are not functioning), they must first be programmed and assigned addresses as outlined in the [Quick Start guide](/Generation%203/Software/docs/quick-start.html).
+1. Once 44 microcontroller/LED units have been assembled (or more, if some microcontrollers are not functioning), they must first be programmed and assigned addresses as outlined in the [Quick Start guide](../../Software/docs/quick-start.md).
     1. If the LED does not properly display lights, or is very dim compared to the rest, do not use it in your arena.
 1. Connect each column to form the 12 columns of the matrix above. This will probably require partially pulling out the LED portion of each unit, connecting the male and female ends, and then securing the LED to the microcontroller once the connection is snug. (Note this problem may make itself more apparent when viewing the assembled columns, and fixing it will ensure strong electrical connections between units).
 
@@ -45,7 +45,7 @@ Our lab uses supplies from [Thorlabs](http://www.thorlabs.com/) to construct a h
 
 ## Connecting Components:
 
-The assembled arena and remaining components must be properly connected using mainly BNC, USB and Serial Port connectors. When setting up the rest of the system, place all components in a user friendly arrangement (i.e. oscilloscope and analog camera output easily viewable). The following is a table, then diagram of connectivity. For more information on how each component works, see the [Flight Simulator User Guide](/Generation%203/Software/docs/g2-user-guide.html)  by Frye, Reiser, and Dickinson or read the Panels documentation page.
+The assembled arena and remaining components must be properly connected using mainly BNC, USB and Serial Port connectors. When setting up the rest of the system, place all components in a user friendly arrangement (i.e. oscilloscope and analog camera output easily viewable). The following is a table, then diagram of connectivity. For more information on how each component works, see the [Flight Simulator User Guide](../../Software/docs/g2-user-guide.md)  by Frye, Reiser, and Dickinson or read the Panels documentation page.
 
 The following is a list of Components and connections. For example, the first line reads: the controller's ADCO is connected to the Wing beat analyzer's WBA input
 
