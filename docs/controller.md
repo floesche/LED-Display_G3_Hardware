@@ -18,36 +18,36 @@ Note: There is a new version of the panel controller in development right now, t
 
 - ADC0:   analog input in mode 1 and 2 of channel x;
 - ADC1:   analog input in mode 1 and 2 of channel x
-- ADC2 :  analog input in mode 1 and 2 of channel y
+- ADC2:   analog input in mode 1 and 2 of channel y
 - ADC3:   analog input in mode 1 and 2 of channel y
 - ADC4:   analog input in mode 3 of channel x
 - ADC5:   analog input in mode 3 of channel y
 
-Note: Users can debug  ADC0 to ADC5 with command Panel_com(‘adc_test’, chan) or Panel_com(‘dio_test’, chan)
+Note: Users can debug  ADC0 to ADC5 with command `Panel_com('adc_test', chan)` or `Panel_com('dio_test', chan)`
 
-Users can also read analog input from ADC0 to ADC3 with command Panel_com('get_adc_value', chan)
+Users can also read analog input from ADC0 to ADC3 with command `Panel_com('get_adc_value', chan)`
 
 - DAC0:    update current frame number (in the unit of volt) in mode 1,2,3, 4, and PC dumping mode of channel x
 
 update analog output in mode 5 (debugging function generator) of channel x;
 
-output triangle wave pulse to a specific ADC port with command Panel_com(‘adc_test’, chan)
+output triangle wave pulse to a specific ADC port with command `Panel_com('adc_test', chan)`
 
-- DAC1:    update current frame number (in the unit of volt) in mode 1,2,3, 4, and PC dumping mode of channel y
+- DAC1: update current frame number (in the unit of volt) in mode 1,2,3, 4, and PC dumping mode of channel y
         - update analog output in mode 5 (debugging function generator) of channel y;
-        - output square wave pulse to a scope with command Panel_com(‘dio_test’, chan)
-        - output triangle wave pulse to a scope with command Panel_com(‘adc_test’, chan)
+        - output square wave pulse to a scope with command `Panel_com('dio_test', chan)`
+        - output triangle wave pulse to a scope with command `Panel_com('adc_test', chan)`
 - DAC2:    unused
 - DAC3:    unused
 
-Note: Users can update analog output from DAC0 to DAC3 with command Panel_com('set_ao',[chan, val]);
+Note: Users can update analog output from DAC0 to DAC3 with command `Panel_com('set_ao',[chan, val]);`
 
 - Int0:        laser trigger;
 - Int1:        timing for fetching and displaying each frame when controller works in default mode and PC dumping mode
 - Int2:        trigger camera;
 - Int3:        waiting for external trigger to start pattern display
 
-Note: Users can debug int0 to int4 with command Panel_com(‘dio_test’, chan)
+Note: Users can debug int0 to int4 with command `Panel_com('dio_test', chan)`
 
 # BNC Breakout
 
