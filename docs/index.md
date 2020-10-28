@@ -2,6 +2,7 @@
 title: Hardware
 parent: Generation 3
 has_children: true
+has_toc: false
 nav_order: 1
 ---
 
@@ -17,7 +18,7 @@ What is new in PDC 3.0?
 
 # At a Glance
 
-1. The flight arena consists of a circular array of 8x8 dot matrix displays of LEDs with additional electronics to drive the display.    
+1. The flight arena consists of a circular array of 8x8 dot matrix displays of LEDs with additional electronics to drive the display.
 1. The data acquisition module is often called the nidaq, or National Instruments Data Acquisition Device. In this case, the nidaq is a NI USB-6229 BNC Multifunction DAQ. This model has 16 analog inputs, 4 analog outputs, 8 DIOs and 2 user defined BNC terminals—more information about this device is available at http://sine.ni.com/nips/cds/view/p/lang/en/nid/203866.
 1. The controller is a microprocessor circuit custom designed to operate the flight arena. The controller communicates with a PC through a serial port and to the panels using a rapid serial interface. 
 1. The wingbeat analyzer measures the frequency and amplitude of the fly wing stroke. It also computes the sum and difference of the amplitudes of the left and right wings. This device is custom built by JFI Electronics at the University of Chicago.
