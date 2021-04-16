@@ -58,7 +58,6 @@ Power supply: Digi-Key 1939-1462-ND
 Enclosure Hardware:                     
 
 Qty    Description                                  Vendor             Part Number
-----------------------------------------------------------------------------------------
 1      panel switch                                 Digi-Key           CH865-ND   
 8      4-40 standoff - 3/8" long                   McMaster-Carr      91780A730  
 16     4-40 screws 1'4" long                       McMaster-Carr      91249A105  
@@ -78,11 +77,11 @@ Qty    Description                                  Vendor             Part Numb
 
 ## Arena components
 
-Qty Description
+Qty/Description
 1   Arena board
-1   Arena power supply 5V 30A supply     Jameco PN 123394   https://www.jameco.com/z/S-150-5-MEAN-WELL-AC-to-DC-Power-Supply-Single-Output-5-Volt-30-Amp-150-Watt_123394.html?CID=MERCH
-1   Supply to Arena cable (5-pin DIN cable)             http://www.digikey.com/products/en?keywords=839-1064-nd
-1   AC power cord                           https://www.mcmaster.com/#70355k85/=16vbkrs
+1   Arena power supply 5V 30A supply Jameco PN 123394 https://www.jameco.com/z/S-150-5-MEAN-WELL-AC-to-DC-Power-Supply-Single-Output-5-Volt-30-Amp-150-Watt_123394.html?CID=MERCH
+1   Supply to Arena cable (5-pin DIN cable) http://www.digikey.com/products/en?keywords=839-1064-nd
+1   AC power cord https://www.mcmaster.com/#70355k85/=16vbkrs
 4   Digi-Key    478-4170-ND
 14  Digi-Key    SAM1222-08-ND
 1   Digi-Key    609-1478-ND
@@ -94,8 +93,10 @@ Qty Description
 
 
 ## Additional equipment
--soldering station
--AVR ISP programmer for programming bootloader and firmware onto controller (https://www.amazon.com/Compatible-System-Programmer-interface-XYGStudy/dp/B00C7VV6E4/ref=pd_sim_147_2?_encoding=UTF8&pd_rd_i=B00C7VV6E4&pd_rd_r=bb50105e-7a32-11e8-b7c4-af38c36f552b&pd_rd_w=0BdWm&pd_rd_wg=x0vvW&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=7967298517161621930&pf_rd_r=WRS771ZEM7MYHXQ577N2&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=WRS771ZEM7MYHXQ577N2)
+
+soldering station
+
+AVR ISP programmer for programming bootloader and firmware onto controller (https://www.amazon.com/Compatible-System-Programmer-interface-XYGStudy/dp/B00C7VV6E4/ref=pd_sim_147_2?_encoding=UTF8&pd_rd_i=B00C7VV6E4&pd_rd_r=bb50105e-7a32-11e8-b7c4-af38c36f552b&pd_rd_w=0BdWm&pd_rd_wg=x0vvW&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=7967298517161621930&pf_rd_r=WRS771ZEM7MYHXQ577N2&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=WRS771ZEM7MYHXQ577N2)
 
 
 
