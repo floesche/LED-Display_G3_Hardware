@@ -56,6 +56,7 @@ Hardware for connecting PCBs, see below (Enclosure Hardware)
 Power supply: Digi-Key 1939-1462-ND
 
 Enclosure Hardware:                     
+
 Qty    Description                                  Vendor             Part Number
 ----------------------------------------------------------------------------------------
 1      panel switch                                 Digi-Key           CH865-ND   
