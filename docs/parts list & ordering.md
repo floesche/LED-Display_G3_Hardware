@@ -4,7 +4,7 @@
 
 ## Controller components
 
-## Main controller board
+### Main controller board
 order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (updated with more details! ask Will)
 
 ### BNC breakout 
