@@ -91,6 +91,18 @@ Qty/Description
 4   Digi-Key    S9001-ND
 
 
+## LEDs
+
+Order from: Dongguan Houjie Keming Electronic Factory
+Contact: Ellen (sales3@dgkeming.com.cn)
+
+KEM-12088-AB   Blue         (460-475nm)    cost ~0.68 each
+KEM-12088-ASG  Super Green  (565-575nm)    cost ~0.50 each
+KEM-12088-APG  Pure Green   (515-525nm)    cost ~0.68 each
+
+See LEDInfo.pdf for more information about LEDs
+[LEDInfo.pdf](https://github.com/evettita/Panel-G3-Hardware/files/6326593/LEDInfo.pdf)
+
 
 ## Additional equipment
 
