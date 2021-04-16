@@ -21,12 +21,15 @@ Main controller board - order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (u
      see PCB quote screenshot for other options (pcb_cart_quote_screenshot.png)
     ![pcb_cart_quote_screenshot](https://user-images.githubusercontent.com/4358857/115049775-12fa7e80-9ea9-11eb-903e-9dac7e4f96e3.png)
     
+    Panels BNC Breakout BOM:
 
-| Tables   |      Are      |  Cool |
+| Part   |      Description      |  Vendors |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| P1,P2 |  5x2 male shrouded header | jameco 67812,  digikey S9169-ND |
+| P3 |    4-pin friction lock header   |   jameco 613958, digikey A1922-ND |
+| P4-P13 | socket BNC connector |    digikey A97555-ND  |
+| P14 | 13x2 male shrouded header |  jameco 68372,  digikey S9173-ND |
+
 
     
     Panels BNC Breakout BOM:
