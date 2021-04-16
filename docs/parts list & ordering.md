@@ -6,23 +6,22 @@
 Main controller board - order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (updated? ask Will)
 
 ### BNC breakout - order bare PCB from pcbcart.com, then solder in below parts
-     geber file: panels_bnc_breakout_v1p1.zip  (TODO link to file in repo!)
-     board size: 203.2mm x imm
-     layers: 2
-     board type: single
-     material details: FR4-Standard Tg 140C
-     thickness (finished board): 1.6 mm
-     surface finish: HASL
-     soldermask: As design in file
-     solder mask color: green
-     copper weight (finished): 35 um
-     silkscreen legend: as design in file
-     silkscreen legend color: white
-     see PCB quote screenshot for other options (pcb_cart_quote_screenshot.png)
-    ![pcb_cart_quote_screenshot](https://user-images.githubusercontent.com/4358857/115049775-12fa7e80-9ea9-11eb-903e-9dac7e4f96e3.png)
+geber file: panels_bnc_breakout_v1p1.zip  (TODO link to file in repo!)
+board size: 203.2mm x imm
+layers: 2
+board type: single
+material details: FR4-Standard Tg 140C
+thickness (finished board): 1.6 mm
+surface finish: HASL
+soldermask: As design in file
+solder mask color: green
+copper weight (finished): 35 um
+silkscreen legend: as design in file
+silkscreen legend color: white
+see PCB quote screenshot for other options (pcb_cart_quote_screenshot.png)
+![pcb_cart_quote_screenshot](https://user-images.githubusercontent.com/4358857/115049775-12fa7e80-9ea9-11eb-903e-9dac7e4f96e3.png)
     
-    Panels BNC Breakout BOM:
-
+Panels BNC Breakout BOM:
 | Part   |      Description      |  Vendors |
 |----------|:-------------:|------:|
 | P1,P2 |  5x2 male shrouded header | jameco 67812,  digikey S9169-ND |
