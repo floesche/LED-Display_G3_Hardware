@@ -4,7 +4,8 @@
 
 ## Controller components
 
-## Main controller board - order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (updated with more details! ask Will)
+## Main controller board
+order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (updated with more details! ask Will)
 
 ### BNC breakout 
 order bare PCB from pcbcart.com, then solder in below parts
@@ -76,7 +77,18 @@ Qty    Description                                  Vendor             Part Numb
 
 ## Arena components
 
-
+Qty Description
+1   Arena board
+1   Arena power supply 5V 30A supply     Jameco PN 123394   https://www.jameco.com/z/S-150-5-MEAN-WELL-AC-to-DC-Power-Supply-Single-Output-5-Volt-30-Amp-150-Watt_123394.html?CID=MERCH
+1   Supply to Arena cable (5-pin DIN cable)             http://www.digikey.com/products/en?keywords=839-1064-nd
+1   AC power cord                           https://www.mcmaster.com/#70355k85/=16vbkrs
+4   Digi-Key    478-4170-ND
+14  Digi-Key    SAM1222-08-ND
+1   Digi-Key    609-1478-ND
+1   Digi-Key    CKN1513-ND
+1   Digi-Key    CP-2350-ND
+1   Digi-Key    A26513-40-ND
+4   Digi-Key    S9001-ND
 
 
 
