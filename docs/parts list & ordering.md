@@ -21,8 +21,9 @@ Main controller board - order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (u
      see PCB quote screenshot for other options (pcb_cart_quote_screenshot.png)
     ![pcb_cart_quote_screenshot](https://user-images.githubusercontent.com/4358857/115049775-12fa7e80-9ea9-11eb-903e-9dac7e4f96e3.png)
     
-    
-    | Tables   |      Are      |  Cool |
+$$
+\begin{table}[]
+| Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
