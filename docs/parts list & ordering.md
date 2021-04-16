@@ -3,9 +3,12 @@
 (Goal: includes pictures of each item and instruction for any custom ordering)
 
 ## Controller components
-Main controller board - order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (updated? ask Will)
 
-### BNC breakout - order bare PCB from pcbcart.com, then solder in below parts
+## Main controller board - order from Bittele: JF‐MR‐PC0003 RevC _2018_05_25 (updated with more details! ask Will)
+
+### BNC breakout 
+order bare PCB from pcbcart.com, then solder in below parts
+
 geber file: panels_bnc_breakout_v1p1.zip  (TODO link to file in repo!)
 board size: 203.2mm x imm
 layers: 2
@@ -28,35 +31,25 @@ Panels BNC Breakout BOM:
 | P3 |    4-pin friction lock header   |   jameco 613958, digikey A1922-ND |
 | P4-P13 | socket BNC connector |    digikey A97555-ND  |
 | P14 | 13x2 male shrouded header |  jameco 68372,  digikey S9173-ND |
-
-
-    
-    Panels BNC Breakout BOM:
-Part        Description                      Vendors   
------------------------------------------------------------------------------
-P1,P2       5x2 male shrouded header         jameco 67812,  digikey S9169-ND
-P3          4-pin friction lock header       jameco 613958, digikey A1922-ND
-P4-P13      socket BNC connector                            digikey A97555-ND 
-P14         13x2 male shrouded header        jameco 68372,  digikey S9173-ND
     
 
-
-### ISP breakout - order bare PCB from pcbcart.com, then solder in below parts
-     geber file: panels_isp_breakout_v1p1.zip
-     board size: 25.4mm x 35.56mm
-     see PCB quote screenshot for other options (pcb_cart_quote_screenshot.png)
+### ISP breakout 
+order bare PCB from pcbcart.com, then solder in below parts
+geber file: panels_isp_breakout_v1p1.zip
+board size: 25.4mm x 35.56mm
+see PCB quote screenshot for other options (pcb_cart_quote_screenshot.png)
      
-     Panels ISP Breakout BOM:
-Part          Description                  Vendors
------------------------------------------------------------------
-P1            8pin receptacle 0.1"         digikey SAM1222-08-ND
-P2            friction lock header 0.1"    digikey A1922-ND
-P3            3x2 male header 0.1"         digikey WM8121-ND
-R             resistor 10k, 1/4W 5%        digikey P10KBACT-ND
+Panels ISP Breakout BOM:
+| Part   |      Description      |  Vendors |
+|----------|:-------------:|------:|
+| P1 |  8pin receptacle 0.1"  | digikey SAM1222-08-ND |
+| P2 |     friction lock header 0.1"   |   digikey A1922-ND |
+| P3 | 3x2 male header 0.1" |    digikey WM8121-ND  |
+| R | resistor 10k, 1/4W 5% |  digikey P10KBACT-ND |
 
 
-### Enclosure: 300mm deep 1U rackmount blank chasis
-     Purchase from: https://www.circuitspecialists.com/rackmount-enclosure-37-1u.html
+### Enclosure
+Purchase 300mm deep 1U rackmount blank chasis from: https://www.circuitspecialists.com/rackmount-enclosure-37-1u.html
 
 Hardware for connecting PCBs, see below (Enclosure Hardware)
 Power supply: Digi-Key 1939-1462-ND
@@ -87,7 +80,7 @@ Qty    Description                                  Vendor             Part Numb
 
 
 
-## Additional equipment needed for assembly
+## Additional equipment
 -soldering station
 -AVR ISP programmer for programming bootloader and firmware onto controller (https://www.amazon.com/Compatible-System-Programmer-interface-XYGStudy/dp/B00C7VV6E4/ref=pd_sim_147_2?_encoding=UTF8&pd_rd_i=B00C7VV6E4&pd_rd_r=bb50105e-7a32-11e8-b7c4-af38c36f552b&pd_rd_w=0BdWm&pd_rd_wg=x0vvW&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=7967298517161621930&pf_rd_r=WRS771ZEM7MYHXQ577N2&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=WRS771ZEM7MYHXQ577N2)
 
