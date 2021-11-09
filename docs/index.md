@@ -33,10 +33,10 @@ The following is a brief list of the parts needed for a functional setup.
 
 1. Arena Controller -  (URL/controller details neeeded)
 1. Wingbeat Analyzer (WBA) - [JFI Electronics Laboratory](https://jfi.uchicago.edu/), University of Chicago.
-1. Data Acquisition Module -  [National Instruments Data Acquisition PCI-6221 Board (NIDAQ)](http://sine.ni.com/nips/cds/view/p/lang/en/nid/14132)
+1. Data Acquisition Module -  [National Instruments Data Acquisition PCI-6221 Board (NI-DAQ)](http://sine.ni.com/nips/cds/view/p/lang/en/nid/14132)
 1. Oscilloscope - [Tektronix TDS 2024B](https://www.tek.com/products/oscilloscopes/tds2000/)
-1. PC - Any PC capable of running matlab, a data acquisition program, and handling the card drivers for the NIDAQ. - Our setup uses Dell Precision T5500
-1. Cables - BNC, BNC-Bannana adaptors, BNC T splitters, Firewire, USB A-B
+1. PC - Any PC capable of running matlab, a data acquisition program, and handling the card drivers for the NI-DAQ. - Our setup uses Dell Precision T5500
+1. Cables - BNC, BNC-Banana adaptors, BNC T splitters, FireWire, USB A-B
 
 ## Flight Arena & Peripherals
 

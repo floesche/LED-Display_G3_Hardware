@@ -53,31 +53,31 @@ The following is a list of Components and connections. For example, the first li
 | ---------------- | ----------------- | ----------------- | ----------------- |
 | Controller       | ADC0              | Wingbeat Analyzer | L                 |
 | Controller       | ADC1              | Wingbeat Analyzer | R                 |
-| Controller       | DAC0              | Nidaq             | Input 3           |
-| Controller       | DAC1              | Nidaq             | Input 4           |
+| Controller       | DAC0              | NI-DAQ            | Input 3           |
+| Controller       | DAC1              | NI-DAQ            | Input 4           |
 | Controller       | PC1               | Computer          | Serial Port       |
 | Controller       | I2C               | Arena             | Serial Port       |
-| Nidaq            | Analog Input 0    | Wingbeat Analyzer | Amplitude L       |
-| Nidaq            | Analog Input 1    | Wingbeat Analyzer | Amplitude R       |
-| Nidaq            | Analog Input 2    | Wingbeat Analyzer | Frequency         |
-| Nidaq            | Analog Input 3    | Controller        | DAQ1              |
-| Nidaq            | Analog Input 4    | Controller        | DAQ2              |
-| Nidaq            | Analog Input 5    | Wingbeat Analyzer | Amplitude L-R     |
-| Nidaq            | Analog Input 6    |                   | Analog Output 1   |
-| Nidaq            | USB Output        | Computer          | USB-Port          |
-| Nidaq            | Analog Output 1   |                   | Analog Input 6    |
+| NI-DAQ           | Analog Input 0    | Wingbeat Analyzer | Amplitude L       |
+| NI-DAQ           | Analog Input 1    | Wingbeat Analyzer | Amplitude R       |
+| NI-DAQ           | Analog Input 2    | Wingbeat Analyzer | Frequency         |
+| NI-DAQ           | Analog Input 3    | Controller        | DAQ1              |
+| NI-DAQ           | Analog Input 4    | Controller        | DAQ2              |
+| NI-DAQ           | Analog Input 5    | Wingbeat Analyzer | Amplitude L-R     |
+| NI-DAQ           | Analog Input 6    |                   | Analog Output 1   |
+| NI-DAQ           | USB Output        | Computer          | USB-Port          |
+| NI-DAQ           | Analog Output 1   |                   | Analog Input 6    |
 | Wingbeat Analyzer| L                 | Controller        | ADC0              |
-| Wingbeat Analyzer| L                 | Nidaq             | Analog Input 0    |
+| Wingbeat Analyzer| L                 | NI-DAQ            | Analog Input 0    |
 | Wingbeat Analyzer| R                 | Controller        | ADC1              |
-| Wingbeat Analyzer| R                 | Nidaq             | Analog Input 1    |
+| Wingbeat Analyzer| R                 | NI-DAQ            | Analog Input 1    |
 | Wingbeat Analyzer| Signal Out L + R  | Oscilloscope      | Ch 1 + Ch 2       |
 | Wingbeat Analyzer| Signal Out L + R  | Speakers          | L + R             |
 | Wingbeat Analyzer| L-R               | Oscilloscope      | Ch 3              |
-| Wingbeat Analyzer| L-R               | Nidaq             | Analog Input 5    |
+| Wingbeat Analyzer| L-R               | NI-DAQ             | Analog Input 5    |
 | Wingbeat Analyzer| SYNC (-TTL)       | Oscilloscope      | Ext Trig          |
 | Wingbeat Analyzer| LED Out           | Arena             | IR LED            |
 | Wingbeat Analyzer| Photo detector    | Arena             | Photo detector    |
-| Wingbeat Analyzer| Frequency         | Nidaq             | Analog Input 2    |
+| Wingbeat Analyzer| Frequency         | NI-DAQ            | Analog Input 2    |
 | Oscilloscope     | Channel 1         | Wingbeat Analyzer | L                 |
 | Oscilloscope     | Channel 2         | Wingbeat Analyzer | R                 |
 | Oscilloscope     | Channel 3         | Wingbeat Analyzer | L-R               |
@@ -85,7 +85,7 @@ The following is a list of Components and connections. For example, the first li
 | Arena            | Serial Port       | Controller        | I2C               |
 | Arena            | Photodetector     | Wingbeat Analyzer | Photodetector     |
 | Arena            | LED               | Wingbeat Analyzer | LED Out           |
-| Computer         | USB               | Nidaq             |                   |
+| Computer         | USB               | NI-DAQ            |                   |
 | Computer         | Serial Port       | Controller        | PC1               |
 
 # Power issues
