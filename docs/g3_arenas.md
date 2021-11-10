@@ -2,12 +2,14 @@
 title: Arenas
 parent: Hardware
 grand_parent: Generation 3
-nav_order: 3
+nav_order: 5
 ---
 
 # Recommended method for assembling arenas
 
 ## Assembling the LED matrix
+
+![An assembled arena - top view](assets/arena_top_photo.jpg){:.ifr .pop}
 
 The standard arena consists of a circular array of 8×8 dot matrix displays of LEDs connected to microcontrollers in a 1:1 manner. The typical 12 panel ring arena is built from two PCB boards, and is typically 4 panels high (48 panels total). In order to later control the displays, unique addresses must be assigned to each one. These micro controllers may need to be flashed with the latest files according to the [quick start guide]({{site.baseurl}}/Generation%203/Software/docs/quick-start.html) before assigning addresses The following outlines the steps needed for creating a standard arena with a 4×11 array of LED displays.
 
@@ -28,8 +30,7 @@ The PCB boards for each arena require some soldering. Remember both boards must 
 1. Check that the panels turn on and are in the correct place by plugging in the 5V power supply and turning on the arena with the power switch.
 1. Check for gaps between LED panels which can compromise the long term stability of the arena.
 
-![An assembled arena - top view](../assets/arena_top1.jpg){: width="49%" .float-left}
-![An assembled arena - side view](../assets/arena_side1.jpg){: width="49%"}
+![An assembled arena - side view](assets/arena_side_photo.jpg){:.ifr .pop}
 
 ---
 {:.clear}
@@ -47,7 +48,7 @@ Our lab uses supplies from [Thorlabs](http://www.thorlabs.com/) to construct a h
 
 The assembled arena and remaining components must be properly connected using mainly BNC, USB and Serial Port connectors. When setting up the rest of the system, place all components in a user friendly arrangement (i.e. oscilloscope and analog camera output easily viewable). The following is a table, then diagram of connectivity. For more information on how each component works, see the [Flight Simulator User Guide]({{site.baseurl}}/Generation%203/Software/docs/g2-user-guide.html)  by Frye, Reiser, and Dickinson or read the Panels documentation page.
 
-The following is a list of Components and connections. For example, the first line reads: the controller's ADCO is connected to the Wing beat analyzer's WBA input
+The following is a list of Components and connections. For example, the first line reads: the controller's `ADCO` is connected to the Wing beat analyzer's WBA input
 
 | Component side A | Connection side A | Component side B  | Connection side B |
 | ---------------- | ----------------- | ----------------- | ----------------- |
