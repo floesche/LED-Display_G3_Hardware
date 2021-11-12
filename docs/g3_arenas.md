@@ -5,7 +5,17 @@ grand_parent: Generation 3
 nav_order: 5
 ---
 
+# Generation 3 Arena
+
+![](assets/arena_12-12_front.png){:.ifr .pop}
+![](assets/arena_12-12_back.png){:.ifr .pop .clear}
+
+An arena board organizes panels in a geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. We use a naming scheme based on their number of panel columns available and the virtual ones forming a full circle. A 12-12 arena is a closed cylinder formed by 12 columns in total, a 12-20 describes an open virtual cylinder formed by 20 columns where 12 are actually available.
+
+For the Generation 3, two different arenas are available: an arena 12-12 and arena 24-24. Besides the eagle project files, we provide a preview of the [schematics for the arena 12-12](assets/arena_12-12_schematic.pdf) and the most recent production files archived in `arena_12-12/production_v1/JF-MR-FA0001-RevB.zip`. The same applies to the [schematics](assets/arena_24-24_schematic.pdf) of the arena 24-24 with production files archived at `arena_24-24/production_v1/JF-MR-FA0002-RevA.zip`.
+
 # Recommended method for assembling arenas
+{:.clear}
 
 ## Assembling the LED matrix
 
