@@ -7,7 +7,7 @@ nav_order: 6
 
 # Tips & Tricks
 
-The [Flight Arena User Guide]({{site.baseurl}}/Generation%203/Software/docs/g2-user-guide.html) has many suggestions for proper technique.
+The [Flight Arena User Guide]({{site.baseurl}}/Generation%202/Arenas/docs/g2_user-guide.html) has many suggestions for proper technique.
 
 Some common problems that come up are:
 

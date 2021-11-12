@@ -20,6 +20,8 @@ The standard arena consists of a circular array of 8×8 dot matrix displays of L
 
 ## Assembling the boards
 
+![An assembled arena - side view](assets/arena_side_photo.jpg){:.ifr .pop}
+
 The PCB boards for each arena require some soldering. Remember both boards must be facing up in the final arena, attach components on the correct side.
 
 1. Bottom board (female end) requires 12, 8-pin stacking headers soldered around the center top (silkscreen text) circle cutout  side of the board.
@@ -29,11 +31,6 @@ The PCB boards for each arena require some soldering. Remember both boards must 
 1. Connect the LED columns to the bottom, then top boards.
 1. Check that the panels turn on and are in the correct place by plugging in the 5V power supply and turning on the arena with the power switch.
 1. Check for gaps between LED panels which can compromise the long term stability of the arena.
-
-![An assembled arena - side view](assets/arena_side_photo.jpg){:.ifr .pop}
-
----
-{:.clear}
 
 ## Constructing the Arena Housing
 
@@ -46,7 +43,7 @@ Our lab uses supplies from [Thorlabs](http://www.thorlabs.com/) to construct a h
 
 ## Connecting Components
 
-The assembled arena and remaining components must be properly connected using mainly BNC, USB and Serial Port connectors. When setting up the rest of the system, place all components in a user friendly arrangement (i.e. oscilloscope and analog camera output easily viewable). The following is a table, then diagram of connectivity. For more information on how each component works, see the [Flight Simulator User Guide]({{site.baseurl}}/Generation%203/Software/docs/g2-user-guide.html)  by Frye, Reiser, and Dickinson or read the Panels documentation page.
+The assembled arena and remaining components must be properly connected using mainly BNC, USB and Serial Port connectors. When setting up the rest of the system, place all components in a user friendly arrangement (i.e. oscilloscope and analog camera output easily viewable). The following is a table, then diagram of connectivity. For more information on how each component works, see the [Flight Simulator User Guide]({{site.baseurl}}/Generation%202/Arenas/docs/g2_user-guide.html)  by Frye, Reiser, and Dickinson or read the Panels documentation page.
 
 The following is a list of Components and connections. For example, the first line reads: the controller's `ADCO` is connected to the Wing beat analyzer's WBA input
 
