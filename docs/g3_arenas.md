@@ -7,8 +7,8 @@ nav_order: 5
 
 # Generation 3 Arena
 
-![](assets/arena_12-12_front.png){:.ifr .pop}
-![](assets/arena_12-12_back.png){:.ifr .pop .clear}
+![Arena 12-12 PCB front view](assets/arena_12-12_front.png){:.ifr .pop}
+![Arena 12-12 PCB back view](assets/arena_12-12_back.png){:.ifr .pop .clear}
 
 An arena board organizes panels in a geometry and provides structural integrity to the whole setup. Different shapes of cylindrical arenas have been built. We use a naming scheme based on their number of panel columns available and the virtual ones forming a full circle. A 12-12 arena is a closed cylinder formed by 12 columns in total, a 12-20 describes an open virtual cylinder formed by 20 columns where 12 are actually available.
 
@@ -21,10 +21,10 @@ For the Generation 3, two different arenas are available: an arena 12-12 and are
 
 ![An assembled arena - top view](assets/arena_top_photo.jpg){:.ifr .pop}
 
-The standard arena consists of a circular array of 8×8 dot matrix displays of LEDs connected to microcontrollers in a 1:1 manner. The typical 12 panel ring arena is built from two PCB boards, and is typically 4 panels high (48 panels total). In order to later control the displays, unique addresses must be assigned to each one. These micro controllers may need to be flashed with the latest files according to the [quick start guide]({{site.baseurl}}/Generation%203/Software/docs/quick-start.html) before assigning addresses The following outlines the steps needed for creating a standard arena with a 4×11 array of LED displays.
+The standard arena consists of a circular array of 8×8 dot matrix displays of LEDs connected to microcontrollers in a 1:1 manner. The typical 12 panel ring arena is built from two PCB boards, and is typically 4 panels high (48 panels total). In order to later control the displays, unique addresses must be assigned to each one. These micro controllers may need to be flashed with the latest files according to the [flash firmware guide]({{site.baseurl}}/Generation%203/Software/docs/g3_flash_firmware.html) before assigning addresses The following outlines the steps needed for creating a standard arena with a 4×11 array of LED displays.
 
 1. Press each LED display into the microcontroller using the correct orientation. With the male side of the controller pointing down, the ink stamp of the LED should be on the right hand side before inserting pins.
-1. Once 44 microcontroller/LED units have been assembled (or more, if some microcontrollers are not functioning), they must first be programmed and assigned addresses as outlined in the [Quick Start guide]({{site.baseurl}}/Generation%203/Software/docs/quick-start.html).
+1. Once 44 microcontroller/LED units have been assembled (or more, if some microcontrollers are not functioning), they must first be programmed and assigned addresses as outlined in the [flash firmware guide]({{site.baseurl}}/Generation%203/Software/docs/g3_flash_firmware.html).
     1. If the LED does not properly display lights, or is very dim compared to the rest, do not use it in your arena.
 1. Connect each column to form the 12 columns of the matrix above. This will probably require partially pulling out the LED portion of each unit, connecting the male and female ends, and then securing the LED to the microcontroller once the connection is snug. (Note this problem may make itself more apparent when viewing the assembled columns, and fixing it will ensure strong electrical connections between units).
 
