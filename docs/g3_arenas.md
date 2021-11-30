@@ -15,7 +15,6 @@ An arena board organizes panels in a geometry and provides structural integrity 
 For the Generation 3, two different arenas are available: an arena 12-12 and arena 24-24. Besides the eagle project files, we provide a preview of the [schematics for the arena 12-12](assets/arena_12-12_schematic.pdf) and the most recent production files archived in `arena_12-12/production_v1/JF-MR-FA0001-RevB.zip`. The same applies to the [schematics](assets/arena_24-24_schematic.pdf) of the arena 24-24 with production files archived at `arena_24-24/production_v1/JF-MR-FA0002-RevA.zip`.
 
 # Recommended method for assembling arenas
-{:.clear}
 
 ## Assembling the LED matrix
 
