@@ -8,7 +8,7 @@ nav_order: 1
 
 # Home
 
-These pages document the hardware details of the Generation 3 controller project (PDC 3.0, released April 2011). The documentation for the version 2 of the project is archived [here]({{site.baseurl}}/Generation%202/Arenas/docs/g2_system.html).
+These pages document the hardware details of the Generation 3 controller project (PDC 3.0, released April 2011). The documentation for the version 2 of the project is archived [here]({{site.baseurl}}/G2/).
 
 What is new in PDC 3.0?
 
